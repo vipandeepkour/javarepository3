@@ -11,7 +11,7 @@ public class Reading_Line_by_lineClass {
 
 	public static void main(String[] args) throws IOException 
 	{
-		File f= new File("D:\\Simplilearn\\Readinffiles1.txt");
+		File f= new File("D:\\Simplilearn\\readfiles2.txt");//File f= new File("D:\\Simplilearn\\Readinffiles1.txt");
 		FileReader fr= new FileReader(f);
 		BufferedReader br=new BufferedReader(fr);// reads line by line
 		String Line= br.readLine();
